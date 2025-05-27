@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f2f5;
+}
+
+.navbar-custom {
+    background-color: #2b7a9d;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-custom .app-title {
+    color: white;
+}
+
+.admin-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+}
+
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #1f2d3d;
+    padding: 20px 0;
+    color: white;
+}
+
+.sidebar h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background: #2e3d53;
+}
+
+.main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    height: 350px;
+}
+
+.card {
+    border-radius: 10px;
+    height: 100%;
+    padding: 40px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card i.bg-icon {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-size: 60px;
+    opacity: 0.15;
+}
+.btn-download {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 8px 12px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.bg-red {
+    background: #d9534f;
+}
+
+.bg-green {
+    background: #5cb85c;
+}
+
+.bg-blue {
+    background: #0275d8;
+}
+
+.bg-cyan {
+    background: #00bcd4;
+}
+
+.bg-orange {
+    background: #f0ad4e;
+}
+.main-content {
+    margin-left: 200px;
+    transition: all 0.3s ease;
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    background-color: #343a40;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.sidebar.d-none + .main-content {
+    margin-left: 0 !important;
+}
