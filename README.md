@@ -15,10 +15,10 @@ BananaYello is a responsive, Excel-powered web dashboard built for managing and 
 
 🔎 Searchable Tables: Integrated DataTables for sorting and searching uploaded data easily.
 
-![image](https://github.com/user-attachments/assets/42125683-56b1-4080-8f93-961fb4add25a)
+![image](https://github.com/user-attachments/assets/93e990b7-2d18-4a5e-a152-cd4af424a28e)
 
 **Login Details:-
 Username: admin,
 Password: admin123**
 
-![image](https://github.com/user-attachments/assets/7d1ea594-d74b-4568-85b7-9f56da013e9d)
+![image](https://github.com/user-attachments/assets/eb2a7380-c820-4cac-8db6-6d8e61467249)
